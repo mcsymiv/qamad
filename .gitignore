@@ -4,3 +4,4 @@ target
 config.properties
 *.allure
 pom.xml
+allure-results/

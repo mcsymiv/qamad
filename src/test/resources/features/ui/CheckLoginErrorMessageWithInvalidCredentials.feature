@@ -1,5 +1,6 @@
 Feature: Check login error message with invalid credentials
 
+  @ui
   Scenario Outline: Error message on empty username field login
     Given I open Login Page
     Then I see Login Page
