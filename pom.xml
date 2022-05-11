@@ -25,6 +25,7 @@
         <allure-cucumber3-jvm.version>2.7.0</allure-cucumber3-jvm.version>
 
         <!-- ================ API ==================== -->
+        <jackson.version>2.9.8</jackson.version>
         <rest.assured.version>3.2.0</rest.assured.version>
         <springframework.version>5.0.5.RELEASE</springframework.version>
     </properties>
@@ -122,6 +123,13 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>json-path</artifactId>
             <version>${rest.assured.version}</version>
+        </dependency>
+
+        <!--Jackson mapper ================================-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
     </dependencies>
 

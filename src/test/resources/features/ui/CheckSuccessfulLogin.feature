@@ -1,5 +1,6 @@
 Feature: Check successful login
 
+  @ui
   Scenario: Successfully login to the platform
     Given I open Login Page
     Then I see Login Page

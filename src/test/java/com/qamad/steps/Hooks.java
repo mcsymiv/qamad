@@ -14,13 +14,23 @@ public class Hooks {
     @Before
     public void setup(Scenario scenario) {
         log.info("START Scenario: " + scenario.getName());
-        log.info("You are using: " + System.getProperty("os.name"));
-        DriverFactory.init();
+        if (isUiTestCase(scenario)) {
+            log.info("You are using: " + System.getProperty("os.name"));
+            DriverFactory.init();
+        }
     }
 
     @After
     public void teardown(Scenario scenario) {
         log.info("END Scenario: " + scenario.getName());
-        DriverFactory.close();
+        if (isUiTestCase(scenario)) {
+            DriverFactory.close();
+        }
+    }
+
+    private boolean isUiTestCase(Scenario scenario) {
+        return scenario.getSourceTagNames()
+                .stream()
+                .noneMatch(tag -> tag.contains("@api"));
     }
 }
