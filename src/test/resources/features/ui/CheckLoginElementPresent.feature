@@ -1,5 +1,6 @@
 Feature: Check login element present on Login page
 
+  @ui
   Scenario: Check login element present on Login page
     Given I open Login Page
     Then I see Login Page
