@@ -1,0 +1,10 @@
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/pages/BasePage.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/types/DriverType.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/core/DriverFactory.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/pages/NavigationTopPage.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/exception/InvalidOsNameException.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/config/PropertiesConfig.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/pages/LoginPage.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/core/BrowserOptions.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/types/OsType.java
+/Users/mcs/Development/courses/java_projects/qa-mad-task/src/main/java/com/qamad/pages/MainPage.java
