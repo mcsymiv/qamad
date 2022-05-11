@@ -1,18 +1,22 @@
 package com.qamad.pages;
 
+import lombok.Getter;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.List;
 
 import static com.qamad.core.DriverFactory.getDriver;
 
+@Getter
 public class MainPage {
 
     public MainPage() {
         PageFactory.initElements(getDriver(), this);
     }
 
-    public boolean isMainPage() {
-        getDriver().getCurrentUrl();
-        //stub
-        return true;
-    }
+    @FindBy(css = "[class='list-unstyled'] [class*='text-center'] a[href*='account']")
+    private List<WebElement> accountLinks;
+
 }

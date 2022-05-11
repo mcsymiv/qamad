@@ -33,6 +33,9 @@ public class LoginPage extends BasePage {
     @FindBy(how = How.CLASS_NAME, using = "well")
     private List<WebElement> loginFormBlockElements;
 
+    @FindBy(how = How.CSS, using = "#input-password ~ a[href*='forgotten']")
+    private WebElement forgotPasswordLink;
+
     public LoginPage open() {
         getDriver().get(URL);
         return new LoginPage();
@@ -67,6 +70,7 @@ public class LoginPage extends BasePage {
         return List.of(
                 userNameInputField,
                 passwordInputField,
-                loginBtn);
+                loginBtn,
+                forgotPasswordLink);
     }
 }
