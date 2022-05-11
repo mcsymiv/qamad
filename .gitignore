@@ -1,6 +1,8 @@
 .idea/
-target
+target/
 *.iml
 config.properties
 *.allure
 pom.xml
+.DS_Store
+allure-results/
