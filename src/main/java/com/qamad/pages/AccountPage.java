@@ -10,9 +10,9 @@ import java.util.List;
 import static com.qamad.core.DriverFactory.getDriver;
 
 @Getter
-public class MainPage {
+public class AccountPage {
 
-    public MainPage() {
+    public AccountPage() {
         PageFactory.initElements(getDriver(), this);
     }
 
