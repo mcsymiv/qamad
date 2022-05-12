@@ -1,10 +1,10 @@
 ### qamad task
-1. #### Site
+#### Site
     I choose to cover with tests "Wau Dog" [website]:https://waudog.ua/. It is a e-shop for pets and owners. 
     Recently I bought there leash, so this is basic reason behind my choice.  
 
 ***
-2. ### Test cases
+### Test cases
 ID: 1 
 
 Type: functional, positive
@@ -59,3 +59,6 @@ Steps:
 
 Expected: __Password__ and __username__ inputs are present and visible on the Login page, 
 along with __forgot password__ link, __login__ button and __title__.
+
+***
+### Bug report is under issues [link]:https://github.com/mcsymiv/qamad/issues
