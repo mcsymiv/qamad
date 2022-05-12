@@ -12,6 +12,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static com.qamad.types.DriverType.CHROME;
 
@@ -30,6 +31,8 @@ public class DriverFactory {
             driver = new SafariDriver();
         }
 
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     public static WebDriver getDriver() {
