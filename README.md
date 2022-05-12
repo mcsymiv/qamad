@@ -74,7 +74,7 @@ portability issue or simply put - so that you could run tests indpendent on your
 Run test: `mvn test`
 
 Allure: 
-`allure serve target/allure-reports` (OS)
-`allure serve target\allure-reports` (Windows)
-[allure install guides](https://docs.qameta.io/allure/#_installing_a_commandline)
+`allure serve target/allure-reports` (OS). 
+`allure serve target\allure-reports` (Windows). 
+If you don't have allure installed on your machine, please follow this [install guides](https://docs.qameta.io/allure/#_installing_a_commandline)
 
