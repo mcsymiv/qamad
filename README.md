@@ -1,6 +1,6 @@
 ### qamad task
 #### Site
-I choose to cover with tests "Wau Dog" [website]:https://waudog.ua/. It is a e-shop for pets and owners. 
+I choose to test "Wau Dog" [website](https://waudog.ua/). It is a e-shop for pets and owners. 
 Recently I bought there leash, so this is basic reason behind my choice.  
 
 ***
@@ -61,4 +61,4 @@ Expected: __Password__ and __username__ inputs are present and visible on the Lo
 along with __forgot password__ link, __login__ button and __title__.
 
 ***
-#### Bug report is under issues [link]:https://github.com/mcsymiv/qamad/issues
+#### Bug report is under issues [link](https://github.com/mcsymiv/qamad/issues)
