@@ -1,5 +1,6 @@
 package com.qamad.pages;
 
+import com.qamad.config.PropertiesConfig;
 import lombok.Getter;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,12 +21,12 @@ public class NavigationTopPage extends BasePage {
     private List<WebElement> languageFormElements;
 
     @FindBy(css = "#account-login [class*='alert']")
-    private WebElement errorMesageLogin;
+    private WebElement errorMessageLogin;
 
     public LoginPage switchLanguageTo(String languageNameCode) {
         for (WebElement element : languageFormElements) {
             if (element.getAttribute("name").contains(languageNameCode)
-                    && element.getCssValue("color").equalsIgnoreCase("rgba(230, 0, 0, 1)")) {
+                    && element.getCssValue("color").equalsIgnoreCase(PropertiesConfig.getProperty("brandRgbaColor"))) {
                 element.click();
                 break;
             }

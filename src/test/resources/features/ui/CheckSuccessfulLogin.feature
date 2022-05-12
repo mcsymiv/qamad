@@ -7,4 +7,4 @@ Feature: Check successful login
     And I enter "s.mcsymiv@gmail.com" username
     And I enter "PvECV7tr65Zsy3c" password
     And I click on login button on Login Page
-    Then I see Main Page
+    Then I see Account Page
