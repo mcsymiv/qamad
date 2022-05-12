@@ -18,7 +18,7 @@ public class NavigationTopPageSteps extends BaseSteps {
 
         Assert.assertEquals("Invalid error message",
                 errorMessage,
-                navigationTopPage.getErrorMesageLogin().getText());
+                navigationTopPage.getErrorMessageLogin().getText());
     }
 
 }
