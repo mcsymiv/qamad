@@ -1,9 +1,9 @@
 ### qamad task
-#### Site
+1. #### Site
     I choose to cover with tests "Wau Dog" [website]:https://waudog.ua/. It is a e-shop for pets and owners. 
     Recently I bought there leash, so this is basic reason behind my choice.  
 
-### Test cases
+2. ### Test cases
     ID: 1 
     Type: functional, positive
     Description: Successful login to the account page
