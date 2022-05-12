@@ -1,10 +1,10 @@
 ### qamad task
-#### Site
+### Site
 I choose to test "Wau Dog" [website](https://waudog.ua/). It is a e-shop for pets and owners. 
 Recently I bought there leash, so this is basic reason behind my choice.  
 
 ***
-#### Test cases
+### Test cases
 ID: 1 
 
 Type: functional, positive
@@ -61,4 +61,20 @@ Expected: __Password__ and __username__ inputs are present and visible on the Lo
 along with __forgot password__ link, __login__ button and __title__.
 
 ***
-#### Bug report is under issues [link](https://github.com/mcsymiv/qamad/issues)
+### Bug report is under issues [link](https://github.com/mcsymiv/qamad/issues)
+
+***
+### AT project
+Stack: Java 11, Selenium, Junit 4, Cucumber
+
+Note: project was developed and tested mainly on MacOS M1 and chrome v.100, 
+but I included chrome drivers for windows, and MacOS intel in order to avoid
+portability issue or simply put - so that you could run tests indpendent on your machine.
+
+Run test: `mvn test`
+
+Allure: 
+`allure serve target/allure-reports` (OS)
+`allure serve target\allure-reports` (Windows)
+[allure install guides](https://docs.qameta.io/allure/#_installing_a_commandline)
+
